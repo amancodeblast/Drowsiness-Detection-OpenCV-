@@ -24,3 +24,23 @@ Well lets first discuss the basic thing we are doing in this program, we are mea
 
  
 
+## Coding Stuff
+
+#### Argument while executing the program
+
+
+
+* **--shape-predictor** : This is the path to dlib’s pre-trained facial landmark detector ( is included in the repository)                                                                                                                                                                   
+
+* **--alarm** : Here you can optionally specify the path to an input audio file to be used as an alarm.
+
+* **--webcam** :  This integer controls the index of your built-in webcam/USB camera.
+
+  
+
+  #### The parameters
+
+  **Eye Aspect Ratio** threshold has its value near 0.3 and the no. of consecutive frames after which the alarm is blown are kept 45-50
+
+  
+
