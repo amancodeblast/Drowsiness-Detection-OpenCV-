@@ -1,0 +1,31 @@
+[1mdiff --git a/readMe.md b/readMe.md[m
+[1mindex e69de29..35fed94 100644[m
+[1m--- a/readMe.md[m
+[1m+++ b/readMe.md[m
+[36m@@ -0,0 +1,26 @@[m
+[32m+[m[32m# Drowsiness Detection System in Windows[m
+[32m+[m
+[32m+[m[32m## Dependencies required to run the script[m
+[32m+[m
+[32m+[m[32m* Python installed[m
+[32m+[m[32m* Numpy installed[m[41m [m
+[32m+[m[32m* OpenCV installed[m[41m [m
+[32m+[m[32m* dlib installed[m
+[32m+[m[32m* imutils installed[m
+[32m+[m[32m* playsound installed[m
+[32m+[m[32m* agrparse insalled[m
+[32m+[m
+[32m+[m[32m## How to run the script[m
+[32m+[m
+[32m+[m[32mDownload the [repo](<https://github.com/amancodeblast/Drowsiness-Detection-OpenCV->) to your workspace and navigate to the directory using command prompt and write the command[m[41m [m
+[32m+[m
+[32m+[m[32m'python detect_drowsiness.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm alarm.wav'[m
+[32m+[m
+[32m+[m[32mand ...hit enter.[m
+[32m+[m
+[32m+[m[32m## How in the name of God does this thing works[m
+[32m+[m
+[32m+[m[32mWell lets first discuss the basic thing we are doing in this program, we are measuring the EAR(Eye Aspect Ratio) and if it falls below a certain value for a certain amount of time ...well then the driver needs to be reminded to be attentive ..using an alarm. The value mentioned above needs to be tuned taking various factors into consideration such as time of the day, lighting conditions and many more.[m[41m [m
+[32m+[m
+[32m+[m[41m [m
+[32m+[m
