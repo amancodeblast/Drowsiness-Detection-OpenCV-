@@ -2,8 +2,8 @@
 
 ## Dependencies required to run the script
 
-* Python installed
-* Numpy installed 
+* [Python installed](<https://realpython.com/installing-python/>)
+* Numpy installed(use pip) 
 * [OpenCV installed](<https://www.learnopencv.com/install-opencv3-on-windows/>)
 * [dlib installed](<https://www.learnopencv.com/install-dlib-on-windows/>)
 * imutils installed
