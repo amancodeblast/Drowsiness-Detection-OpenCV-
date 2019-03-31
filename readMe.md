@@ -4,8 +4,8 @@
 
 * Python installed
 * Numpy installed 
-* OpenCV installed 
-* dlib installed
+* [OpenCV installed](<https://www.learnopencv.com/install-opencv3-on-windows/>)
+* [dlib installed](<https://www.learnopencv.com/install-dlib-on-windows/>)
 * imutils installed
 * playsound installed
 * agrparse insalled
